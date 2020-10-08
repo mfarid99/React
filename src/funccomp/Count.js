@@ -20,6 +20,7 @@ const Count = (props) => {
 
   return (
     <>
+      {result}
       <h1>{count}</h1>
       <button onClick={addOne}> Add One </button>
     </>
